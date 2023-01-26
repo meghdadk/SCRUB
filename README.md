@@ -1,16 +1,16 @@
 ### This is a Python implementation of "Machine Unlearning Unbound"
 
 ### The main experiments
-- Use [small_scale_unlearning.ipynb](https://github.com/Meghdad92/SCRUB/blob/main/small_scale_unlearning.ipynb) for:
+- Use small_scale_unlearning.ipynb for:
   - small-scale experiemnts
   - large forget-set size experiemnts
-- Use [large_scale_unlearning.ipynb](https://github.com/Meghdad92/SCRUB/blob/main/large_scale_unlearning.ipynb) for:
+- Use large_scale_unlearning.ipynb for:
   - large-scale experiments
-- Use [small_scale_ictest.ipynb](https://github.com/Meghdad92/SCRUB/blob/main/small_scale_ictest.ipynb) for:
+- Use small_scale_ictest.ipynb for:
   - Interclass Confusion Metric experiemnts from [pdf](https://arxiv.org/pdf/2201.06640.pdf)
-- Use [large_scale_ictest.ipynb](https://github.com/Meghdad92/SCRUB/blob/main/large_scale_ictest.ipynb) for:
+- Use large_scale_ictest.ipynb for:
   - Interclass Confusion Metric experiemnts from [pdf](https://arxiv.org/pdf/2201.06640.pdf)
-- Use [MIA_experiments.ipynb](https://github.com/Meghdad92/SCRUB/blob/main/MIA_experiments.ipynb) for:
+- Use MIA_experiments.ipynb for:
   - Membership Inference Attack based on the model's loss values
 
 ### Models choices
