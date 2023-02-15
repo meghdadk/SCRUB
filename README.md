@@ -1,4 +1,4 @@
-### This is a Python implementation of "Machine Unlearning Unbound"
+### This is a Python implementation of "Towards Unbounded Machine Unlearning"
 
 ### The main experiments
 - Use small_scale_unlearning.ipynb for:
@@ -30,7 +30,7 @@
   - lacuna10
 
 ### References
-We have used the codes from the following two repositories:
+We have used the code from the following two repositories:
 
 (Selective Forgetting)[https://github.com/AdityaGolatkar/SelectiveForgetting.git]
 
