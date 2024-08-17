@@ -243,7 +243,7 @@ def train_distill(epoch, train_loader, module_list, swa_model, criterion_list, o
         elif split == "maximize":
             loss = -loss_div
 
-        loss = loss + param_dist(model_s, swa_model, opt.smoothing)
+        loss = loss
 
         if split == "minimize" and not quiet:
             acc1, _ = accuracy(logit_s, target, topk=(1,1))
