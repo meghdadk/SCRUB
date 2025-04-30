@@ -98,7 +98,8 @@ if __name__ == '__main__':
     parser.add_argument('--batch-size', type=int, default=128, metavar='N',
                         help='input batch size for training (default: 128)')
     parser.add_argument('--dataset', default='mnist')
-    parser.add_argument('--dataroot', type=str, default='data/')
+    #parser.add_argument('--dataroot', type=str, default='data/')
+    parser.add_argument('--dataroot', type=str, default='/kaggle/input/vgg-face2-a/')
     parser.add_argument('--disable-bn', action='store_true', default=False,
                         help='Put batchnorm in eval mode and don\'t update the running averages')
     parser.add_argument('--epochs', type=int, default=31, metavar='N',
